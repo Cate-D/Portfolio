@@ -5,74 +5,83 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Cate Draney's Portfolio</title>
   </head>
-  <body> 
-    <div class="container">
-    <h1 class="heading">Welcome to Cate Draney's Portfolio</h1>
-    <img src="img/Cate.jpg" alt="image of website author, Cate Draney" height="30%" width="30%">
-    <h4 class="heading">About Cate</h4>
-    <p>Portland native and <strong> aspiring developer</strong>. Cate is currently taking an intro to programming course at <a href="http://www.epicodus.com/">Epicodus</a>. 
-      She is enjoying learning the languages and plans to attend a full-time bootcamp program in the Fall.</p>
-   <h4 class="heading">Background</h4>
-   <p>
-   <ul>
+<body> 
+  <div class="container">
+  <div class="heading">
+    <h1>Welcome to Cate Draney's Portfolio</h1>
+    <img src="img/Cate.jpg" alt="image of website author, Cate Draney" class="profpic" height="30%" width="30%">
+    <h4>About Cate</h4>
+    <p>Portland native and <strong> aspiring developer</strong>. Cate is currently taking an intro to programming course at <span style="font-weight:bold"><a href="http://www.epicodus.com/">Epicodus</a></span>. She is enjoying learning the languages and plans to attend a full-time bootcamp program in the Fall.</p>
+    <h4>Background</h4>
+    <ul>
      <li><em>Cum Laude</em> gradute from The University of Oregon with a BA in Literature.</li> 
      <li>Over six years of experience in marketing and administrative support in consulting firm setting.</li>
-   </ul>
-   </p>
-   <h4 class="heading">Personal</h4> 
-   <ul>
+    </ul>
+   
+    <h4>Personal</h4> 
+    <ul>
      <li>Interested in sustainable fashion.</li>
      <li>Loves puzzles, watching Survivor, and as much home improvement allowed for a renter.</li>
      <li>Gym rat, organization-obsessed and skin care enthusiast.</li>
-   </ul>
+    </ul>
 
-   <h2 class="heading">Peruse Cate's Work Projects</h2>
-     <div class="row">
+    <h3>Peruse Cate's Work Projects</h3>
+    <div class="row">
       <div class="col-md-4">
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h2 class="panel-title">Adoption Site</h2>
-      </div>
-      <div class="panel-body">
-        <p>Languages used:</p>
-        <ol>
+        <div class="panel panel-primary">
+         <div class="panel-heading">
+           <h2 class="panel-title">Adoption Site</h2>
+          </div>
+    <div class="panel-body">
+      <a href="https://ajlipiec.github.io/Animal_Shelter/">
+        <img src="img/animal.png" alt="thumbnail image of animal shelter website" class="prj-img" height="50%" width="50%"> 
+      </a>
+      <p>Working with a partner, we created an Animal Shelter website to practice CSS cascading styles with inherited and nested child elements. We used columns for each animal's profile and practiced with specificity and how they affect CSS selectors, learned the advantages of CSS in place of inline styling, and changed styles of elements according to cascading precedence using the Mozilla Developer Network for different selectors and properties.</p>
+      <p>Languages used:</p>
+         <ol>
           <li>HTML</li>
           <li>CSS</li>
-        </ol>
-      </div>
-      </div>
-      </div>
-        <div class="col-md-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-          <h4 class="panel-title">Week in Review Assignment</h3>
+         </ol>
         </div>
-        <div class="panel-body"> 
-          <img src="images/emptyoffice.jpeg" alt="empty office" class="img"> 
-          <p>Languages used:
-            <ol>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>HTML</li>
-            </ol>
-          </p>
-        </div> 
-        </div> 
-        </div>
-        <div class="col-md-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h2 class="panel-title">Vacation Site</h2>
-            </div>
-            <div class="panel-body">
-              <p>Languages used:</p>
-              <ol>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-              </ol>
-            </div>
-            </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-primary">
+       <div class="panel-heading">
+        <h2 class="panel-title">Week in Review Assignment</h3>
+       </div>
+      <div class="panel-body"> 
+        <a href="https://github.com/Cate-D/week-in-review.git">
+         <img src="img/week1.png" alt="week one website image thumbnail" class="prj-img" height="50%" width="50%"> 
+        </a>
+        <p>This project encompasses a week's worth of beginning lessons on Bootstrap. Working with a partner we implemented several of the most common Bootstrap resources and styles. First we linked the Bootstrap style sheet, added a container to wrap our content nicely, added padding to dynamically adjust the page elements sizes depending on the user's viewport. We added a jumbotron and panels, and styled text with a blockquote and Bootstrap helper classes.</p>
+        <p>Languages used:</p>
+          <ol>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>HTML</li>
+          </ol>
+      </div> 
+    </div> 
   </div>
-  </body>
+  <div class="col-md-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h2 class="panel-title">Vacation Site</h2>
+      </div>
+      <div class="panel-body">
+        <a href="https://github.com/Cate-D/week-in-review.git">
+         <img src="img/vacation.png" alt="thumbnail image of vacation website" class="prj-img" height="50%" width="50%"> 
+        </a>
+        <p>This project is a site for a vacation I would like to go on. The intent of the project was to pracice Bootstrap components like, a container to pad all content, Jumbotron, blockquotes, and helper classes to add color that emphasizes certain areas of the page. In addition to bootstrap styles, page elements were organized in bootstraps grid and a CSS stylesheet to customize the appearance further.              <p>Languages used:</p>
+         <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+         </ol>
+     </div>
+  </div>
+ </div>
+</div>
+</body>
 </html>
