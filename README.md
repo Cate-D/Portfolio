@@ -6,15 +6,12 @@
 
 ## Description
 
-_This is a landing page for practicing and showcasing web development._
+_This landing page is a school project for practicing and showcasing web development._
 
 ## Setup/Installation Requirements
 
-* _I don't_
-* _know what_
-* _set up or installation requirements_
-* _mean,_
-* _yet!_
+* _No setup or installation requirements_
+
 
 _No specific database or server requirements._
 
@@ -28,7 +25,9 @@ _{Let me know if you run into any issues or have questions, or want to contribut
 
 ## Technologies Used
 
-_{git_
+_{CSS_
+_{Bootstrap_ 
+_{HTML_
 
 ### License
 
