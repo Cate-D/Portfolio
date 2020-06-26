@@ -10,9 +10,8 @@ _This landing page is a school project for practicing and showcasing web develop
 
 ## Setup/Installation Requirements
 
-* _No setup or installation requirements_
-
-
+* _1. Clone down this respository: https://github.com/Cate-D/Portfolio.git._ 
+* _2. Navigate to project root directory in terminal and open index.html in internet browser._
 _No specific database or server requirements._
 
 ## Known Bugs
