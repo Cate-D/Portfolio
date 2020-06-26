@@ -7,7 +7,7 @@
 ## Description
 
 _This landing page is a school project for practicing and showcasing web development._
-_Link to site on github pages https://cate-d.github.io/Portfolio/.
+_Link to site on github pages https://cate-d.github.io/Portfolio/._
 
 ## Setup/Installation Requirements
 
