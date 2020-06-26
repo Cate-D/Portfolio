@@ -25,9 +25,9 @@ _Let me know if you run into any issues or have questions, or want to contribute
 
 ## Technologies Used
 
-*_CSS_
-*_Bootstrap_ 
-*_HTML_
+* _CSS_
+* _Bootstrap_ 
+* _HTML_
 
 ### License
 
