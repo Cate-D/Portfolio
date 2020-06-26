@@ -20,13 +20,13 @@ _No known bugs._
 
 ## Support and contact details
 
-_{Let me know if you run into any issues or have questions, or want to contribute by emailing me._
+_Let me know if you run into any issues or have questions, or want to contribute by emailing me._
 
 ## Technologies Used
 
-_{CSS_
-_{Bootstrap_ 
-_{HTML_
+*_CSS_
+*_Bootstrap_ 
+*_HTML_
 
 ### License
 
